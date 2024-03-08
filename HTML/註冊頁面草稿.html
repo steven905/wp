@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>註冊頁面</h2>
+
+<form action="/action_page.php">
+  <label for="lname">姓氏:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="王"><br>
+  <label for="fname">名字:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="小明"><br>
+  <label for="gender">性別:</label><br>
+  <input type="radio" id="male" name="gender">
+  <label for="male">男性</label><br>
+  <input type="radio" id="female" name="gender">
+  <label for="female">女性</label><br>
+  <input type="radio" id="others" name="gender">
+  <label for="others">其他</label><br>
+  <input type="radio" id="utd" name="gender">
+  <label for="utd">不願透漏</label><br>
+  <label for="bd">生日:</label><br>
+  <input type="date" id="bd" name="birthday"><br>
+  <label for="color">喜歡的顏色:</label><br>
+  <input type="color" id="fc" name="favorite_color"><br>
+  <label for="bt">血型:</label><br>
+  <select name="blood_type" id="bt">
+  	<option>A</option>
+    <option>B</option>
+    <option>O</option>
+    <option>AB</option>
+  </select><br>
+  <label for="account">電話:</label><br>
+  <input type="tel" id="tel" name="telephone" placeholder="0912345678"><br>
+  <label for="account">帳號名稱:</label><br>
+  <input type="text" id="account" name="account" placeholder="abcde123"><br>
+  <label for="mail">電子郵件信箱:</label><br>
+  <input type="email" id="mail" name="mail" placeholder="xxx@gmail.com"><br>
+  <label for="password">密碼:</label><br>
+  <input type="password" id="password" name="password"><br>
+  <label for="file">附件:</label><br>
+  <input type="file" id="file" name="file"><br>
+  <label for="si">自我介紹:</label><br>
+  <textarea name="self_intro" id="si" rows="20" cols="50"></textarea><br>
+  <br><input type="checkbox" id="sub" name="subscribe">
+  <label for="sub">訂閱電子報以掌握最新資訊!</label><br>
+  <br><input type="submit" value="送出">
+</form> 
+
+<p>點擊送出即代表您同意本公司之服務條款。</p>
+
+</body>
+</html>
